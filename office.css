@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* box-sizing: border-box; */ /*<--consider using this one too*/
+}
+
+/* comentário rápido Cmd + Shift + 7 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---------- SETUP ---------------- */
+/* --------------------------------- */
+
+@font-face {
+  font-family: San;
+  src: url("fonts/ABCMonumentGrotesk-Medium-Trial.otf");
+}
+
+@font-face {
+  font-family: Sa2;
+  src: url("fonts/ABCMonumentGrotesk-Medium-Trial.otf");
+}
+
+@font-face {
+  font-family: Sf;
+  src: url("fonts/JMTF_PondreLight.otf");
+}
+
+p {
+  font-family: Sa2, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  /* letter-spacing: -0.01em; */
+}
+
+/* ---------- END SETUP ------------ */
+/* ---------------------------------- */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e5;
+  max-width: 4000px;
+  margin: 0 auto;
+  font-family: San, sans-serif;
+  /* cursor: none; */
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+/* -------- CURSOR ----------- */
+/* --------------------------- */
+.custom-cursor {
+  position: fixed;
+  width: 13px;
+  height: 13px;
+  background-color: blue;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+/* -------- CURSOR ----------- */
+/* --------------------------- */
+
+.position {
+  left: 0;
+  right: 0;
+  position: fixed;
+  bottom: 15px;
+  margin-bottom: 0.8em;
+  font-family: San, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  z-index: 90;
+}
+
+/*  ------------ NAV ------------ */
+/* ------------------------------ */
+.nav-container {
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  margin-bottom: 0.8em;
+  font-family: San, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  z-index: 90;
+  align-items: baseline;
+}
+
+.logo {
+  grid-column: span 9;
+}
+#logo-animation {
+  align-self: flex-start;
+  width: 180px;
+}
+
+.nav-container a {
+  font-family: San, sans-serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #000;
+  /* transition: 0.3s ease; */
+  text-transform: uppercase;
+  align-content: center;
+  text-align: right;
+}
+.nav-container a:hover {
+  color: blue;
+  text-indent: 10px;
+}
+
+#mode-toggle {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  cursor: none;
+  color: black;
+  text-align: right;
+}
+
+/*  ------------ END NAV ------------ */
+/* ------------------------------ */
+
+/* ------- GRID TEMPLATE */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+  padding: 0 1rem;
+}
+/* -------- END GRID TEMPLATE */
+
+#office {
+  margin: 13em 0;
+}
+
+#office img {
+  display: block;
+  grid-column: 3 / span 8;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+#approach img {
+  display: block;
+  grid-column: 5 / span 6;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+#bio img {
+  display: block;
+  grid-column: 3 / span 3;
+  width: 100%;
+}
+
+.approach-img2 {
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+#approach p:last-of-type {
+  margin-bottom: 5em;
+}
+
+.about-p {
+  grid-column: 3 / span 8;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: San, sans-serif;
+}
+
+h4 {
+  font-family: Sa2, sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 0.7rem;
+  grid-column: span 2;
+}
+
+.sticky {
+  top: 1.1em;
+  position: sticky;
+  z-index: 10;
+}
+.sticky h4 {
+  grid-column: 3 / span 2;
+}
+
+#bio div:first-of-type {
+  /* Your styles here */
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 13fr;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+.info {
+  grid-column: span 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes top and bottom content apart */
+  height: 100%;
+}

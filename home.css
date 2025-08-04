@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* box-sizing: border-box; */ /*<--consider using this one too*/
+}
+
+/* comentário rápido Cmd + Shift + 7 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---------- SETUP ---------------- */
+/* --------------------------------- */
+
+@font-face {
+  font-family: San;
+  src: url("fonts/monument-grotesk-regular.otf");
+}
+
+@font-face {
+  font-family: Sa2;
+  src: url("fonts/ABCMonumentGrotesk-Medium-Trial.otf");
+}
+
+@font-face {
+  font-family: Sf;
+  src: url("fonts/JMTF_PondreLight.otf");
+}
+
+p {
+  font-family: Sa2, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- END SETUP ------------ */
+/* ---------------------------------- */
+
+::selection {
+  background-color: blue;
+  color: white;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e5;
+  max-width: 4000px;
+  margin: 0 auto;
+  font-family: San, sans-serif;
+  /* cursor: none; */
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+/* -------- CURSOR ----------- */
+/* --------------------------- */
+.custom-cursor {
+  position: fixed;
+  width: 13px;
+  height: 13px;
+  background-color: blue;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+/* -------- CURSOR ----------- */
+/* --------------------------- */
+
+.position {
+  left: 0;
+  right: 0;
+  position: fixed;
+  bottom: 15px;
+  margin-bottom: 0.8em;
+  font-family: San, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  z-index: 90;
+}
+
+/*  ------------ NAV ------------ */
+/* ------------------------------ */
+.nav-container {
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  margin-bottom: 0.8em;
+  font-family: San, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  z-index: 90;
+  align-items: baseline;
+}
+
+#landingNav {
+  margin-top: 45vh;
+}
+
+.logo {
+  grid-column: span 2;
+}
+#logo-animation {
+  align-self: flex-start;
+  width: 180px;
+}
+.landingParagraph {
+  grid-column: span 7;
+}
+
+.nav-container a {
+  font-family: San, sans-serif;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #000;
+  /* transition: 0.3s ease; */
+  text-transform: uppercase;
+  align-content: center;
+  text-align: right;
+}
+.nav-container a:hover {
+  color: blue;
+  text-indent: 10px;
+}
+
+#mode-toggle {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  cursor: none;
+  color: black;
+  text-align: right;
+}
+
+/*  ------------ END NAV ------------ */
+/* ------------------------------ */
+
+/* ------- GRID TEMPLATE */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+  padding: 0 1rem;
+}
+/* -------- END GRID TEMPLATE */
+
+/* ----------- IMAGE GRID -----------  */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 120px;
+  gap: 80px;
+  padding: 1rem;
+  z-index: 0;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* or unset */
+  display: block;
+
+  will-change: opacity, transform;
+}
+
+/* Organic sizing */
+.image-grid img.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.image-grid img.tall {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+
+.image-grid img.wide {
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.image-grid img.large {
+  grid-column: span 2;
+  grid-row: span 3;
+}
+/* ----------- END IMAGE GRID -----------  */
+/* --------------------------------------- */
+
+#coming {
+  height: 50em;
+  color: blue;
+}
+#coming p {
+  margin: auto 0;
+  grid-column: 3 / span 8;
+}
+
+/* ----FOOTER---- */
+.footer-p {
+  font-size: 0.8rem;
+  grid-column: span 3;
+  margin-bottom: 3em;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  grid-column: span 2;
+  font-size: 0.8rem;
+}
+/* ---- END FOOTER---- */
+/* --------------------------------------- */
+
+/* ✦ RESPONSIVE */
+
+@media (max-width: 900px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 20px;
+    padding: 0 1rem;
+  }
+  .nav-container {
+    align-items: baseline;
+  }
+  .logo {
+    grid-column: span 4;
+  }
+  #logo-animation {
+    align-self: center;
+    width: 180px;
+  }
+  .landingParagraph {
+    display: none;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-auto-rows: 160px;
+  }
+}
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 300px;
+    gap: 8px;
+  }
+
+  .image-grid img.large {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .image-grid img.big,
+  .image-grid img.wide,
+  .image-grid img.tall {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 0px;
+    padding: 0 0.3rem;
+  }
+  .logo {
+    grid-column: span 2;
+  }
+  #logo-animation {
+    align-self: stretch;
+    width: 145px;
+  }
+}
+@media (max-width: 400px) {
+}

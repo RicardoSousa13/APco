@@ -88,7 +88,7 @@ html {
   text-indent: 10px;
 }
 
-#mode-toggle {
+#mode-toggle-landing {
   background: none;
   border: none;
   font-family: inherit;
@@ -126,7 +126,6 @@ html {
   height: auto;
   object-fit: contain; /* or unset */
   display: block;
-
   will-change: opacity, transform;
 }
 
@@ -150,6 +149,13 @@ html {
   grid-column: span 2;
   grid-row: span 3;
 }
+
+body.blue-mode .image-grid img {
+  mix-blend-mode: darken;
+  filter: brightness(0.95) sepia(0.3) hue-rotate(190deg) saturate(5);
+  transition: filter 0.4s ease-in-out;
+}
+
 /* ----------- END IMAGE GRID -----------  */
 /* --------------------------------------- */
 

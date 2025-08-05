@@ -1,5 +1,4 @@
-body,
-html {
+body {
   margin: 0;
   padding: 0;
   background-color: #e6e6e5;
@@ -8,6 +7,33 @@ html {
   font-family: San, sans-serif;
   /* cursor: none; */
   transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+body.dark-mode {
+  background-color: #000;
+  color: #fafafa;
+}
+
+#mode-toggle-dark {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  cursor: none;
+  color: black;
+  text-align: right;
+}
+
+body.dark-mode #mode-toggle-dark {
+  color: #fff;
+}
+
+body.dark-mode a,
+body.dark-mode h1,
+body.dark-mode p,
+body.dark-mode button {
+  color: #fafafa;
 }
 
 /* -------- CURSOR ----------- */
@@ -74,17 +100,6 @@ html {
 .nav-container a:hover {
   color: blue;
   text-indent: 10px;
-}
-
-#mode-toggle {
-  background: none;
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  text-transform: uppercase;
-  cursor: none;
-  color: black;
-  text-align: right;
 }
 
 /*  ------------ END NAV ------------ */

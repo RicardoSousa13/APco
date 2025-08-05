@@ -42,32 +42,53 @@ logoContainer.addEventListener("mouseleave", () => {
   logoAnimation.play();
 });
 
-//GSAP Animation
+// Nav Mode toggle
+// Landing mode toggle
+const landingToggle = document.getElementById("mode-toggle-landing");
+if (landingToggle) {
+  landingToggle.addEventListener("click", () => {
+    document.body.classList.toggle("blue-mode");
+  });
+}
+
+// Regular dark mode toggle
+const darkToggle = document.getElementById("mode-toggle-dark");
+if (darkToggle) {
+  darkToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+  });
+}
+
+// ---------- GSAP Animations ----------
+
 // 1. Text animates on page load
-gsap.from(".reveal-text", {
-  opacity: 0,
-  y: 20,
-  duration: 1.5,
-  stagger: 0.2,
-  ease: "power2.out",
+gsap.utils.toArray(".reveal-text").forEach((el) => {
+  gsap.from(el, {
+    opacity: 0,
+    y: 25,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: el,
+      start: "top 95%", // adjust as needed
+      toggleActions: "play none none none",
+    },
+  });
 });
 
 // 2. Image grid animates on scroll, with delay
-gsap.from(".image-grid img", {
-  opacity: 0,
-  y: 30,
-  stagger: {
-    amount: 1.2,
-    from: "random",
-  },
-  duration: 1,
-  ease: "power3.out",
-  delay: 0.5,
-  scrollTrigger: {
-    trigger: ".image-grid",
-    start: "top 85%",
-    toggleActions: "play none none none",
-  },
+gsap.utils.toArray(".image-grid img").forEach((img) => {
+  gsap.from(img, {
+    opacity: 0,
+    y: 40,
+    duration: 1,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: img,
+      start: "top 90%", // when the top of the image is near viewport bottom
+      toggleActions: "play none none none",
+    },
+  });
 });
 
 //lottie animation for the footer

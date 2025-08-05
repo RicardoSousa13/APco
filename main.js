@@ -87,7 +87,7 @@ gsap.utils.toArray(".reveal-text").forEach((el) => {
   gsap.from(el, {
     opacity: 0,
     y: 25,
-    duration: 1,
+    duration: 1.5,
     ease: "power2.out",
     scrollTrigger: {
       trigger: el,
@@ -102,7 +102,7 @@ gsap.utils.toArray(".image-grid img").forEach((img) => {
   gsap.from(img, {
     opacity: 0,
     y: 40,
-    duration: 1,
+    duration: 1.5,
     ease: "power3.out",
     scrollTrigger: {
       trigger: img,

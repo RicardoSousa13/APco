@@ -11,7 +11,7 @@ html {
   max-width: 4000px;
   margin: 0 auto;
   font-family: San, sans-serif;
-  /* cursor: none; */
+  cursor: none;
   transition: background-color 0.6s ease, color 0.6s ease;
 }
 
@@ -30,18 +30,6 @@ html {
 }
 /* -------- CURSOR ----------- */
 /* --------------------------- */
-
-.position {
-  left: 0;
-  right: 0;
-  position: fixed;
-  bottom: 15px;
-  margin-bottom: 0.8em;
-  font-family: San, sans-serif;
-  font-size: 0.8rem;
-  line-height: 1.2;
-  z-index: 90;
-}
 
 /*  ------------ NAV ------------ */
 /* ------------------------------ */
@@ -75,7 +63,7 @@ html {
 
 .nav-container a {
   font-family: San, sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   text-decoration: none;
   color: #000;
   /* transition: 0.3s ease; */
@@ -164,7 +152,7 @@ body.blue-mode .image-grid img {
   color: blue;
 }
 #coming p {
-  margin: 70vh 0 5vh 0;
+  margin: 40em 0 0em 0;
   grid-column: 3 / span 8;
 }
 
@@ -203,7 +191,7 @@ body.blue-mode .image-grid img {
 @media (max-width: 600px) {
   .image-grid {
     grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: 300px;
+    grid-auto-rows: 200px;
     gap: 8px;
   }
 
@@ -230,13 +218,17 @@ body.blue-mode .image-grid img {
   }
   #logo-animation {
     align-self: stretch;
-    width: 145px;
+    width: 175px;
   }
 
+  #coming {
+    height: 20em;
+  }
   #coming p {
-    /* margin: 70vh 0 5vh 0; */
+    margin: 10em 0 0em 0;
     grid-column: 2 / span 3;
   }
+
   #footer {
     display: flex;
     flex-direction: column;

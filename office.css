@@ -172,18 +172,20 @@ h4 {
   grid-column: 3 / span 2;
 }
 
+#bio {
+  margin-bottom: 10em;
+}
+
 #bio div:first-of-type {
   /* Your styles here */
   margin-bottom: 2em;
 }
-
 .contact {
   display: grid;
   grid-template-columns: 1fr 13fr;
   gap: 10px;
   font-size: 0.8rem;
 }
-
 .info {
   grid-column: span 5;
   display: flex;

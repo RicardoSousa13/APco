@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e5;
+  max-width: 4000px;
+  margin: 0 auto;
+  font-family: San, sans-serif;
+  cursor: none;
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+body.dark-mode {
+  background-color: #000;
+  color: #fafafa;
+}
+
+#mode-toggle-dark {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  cursor: none;
+  color: black;
+  text-align: right;
+}
+
+body.dark-mode #mode-toggle-dark {
+  color: #fff;
+}
+
+body.dark-mode a,
+body.dark-mode h1,
+body.dark-mode p,
+body.dark-mode button {
+  color: #fafafa;
+}
+
+/* -------- CURSOR ----------- */
+/* --------------------------- */
+.custom-cursor {
+  position: fixed;
+  width: 13px;
+  height: 13px;
+  background-color: blue;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+/* -------- CURSOR ----------- */
+/* --------------------------- */
+
+/* .position {
+  left: 0;
+  right: 0;
+  position: fixed;
+  bottom: 15px;
+  margin-bottom: 0.8em;
+  font-family: San, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  z-index: 90;
+} */
+
+/*  ------------ NAV ------------ */
+/* ------------------------------ */
+.nav-container {
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  margin-bottom: 0.8em;
+  font-family: San, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  z-index: 90;
+  align-items: baseline;
+}
+
+.logo {
+  grid-column: span 9;
+}
+#logo-animation {
+  align-self: flex-start;
+  width: 160px;
+}
+#logo-animation svg {
+  transition: filter 0.5s ease;
+}
+
+.nav-container a {
+  font-family: San, sans-serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #000;
+  /* transition: 0.3s ease; */
+  text-transform: uppercase;
+  align-content: center;
+  text-align: right;
+  cursor: none;
+}
+.nav-container a:hover {
+  color: blue;
+}
+
+/*  ------------ END NAV ------------ */
+/* ------------------------------ */
+
+/* ------- GRID TEMPLATE */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+  padding: 0 1rem;
+}
+/* -------- END GRID TEMPLATE */
+
+/* ============ ARCHIVE PAGE ============ */
+.project-list {
+  padding-top: 13em;
+}
+
+.filters {
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.filters select,
+.filters button {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 0.3rem 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.8rem;
+}
+#filter-collaboration {
+  grid-column: 5 / span 2;
+}
+#filter-category,
+#filter-local {
+  grid-column: span 2;
+}
+
+.archive-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem 2rem 1rem;
+  gap: 0.5rem;
+}
+
+.archive-list details {
+  border-bottom: 0.7px solid black;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: black;
+  transition: background-color 0.3s ease;
+  padding: 0.3rem 0;
+}
+
+.archive-list details:hover summary {
+  color: blue;
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+}
+
+.archive-grid > .title {
+  grid-column: span 2;
+  font-weight: bold;
+}
+
+/* Expanded content */
+.project-content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.project-content p {
+  grid-column: 3 / span 4;
+}
+
+.project-content img {
+  grid-column: span 2;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Featured project style (JS will add class .featured-project) */
+.featured-project {
+  background-color: #f4f4f4;
+  padding: 1rem 0;
+}
+
+.featured-project .project-content {
+  margin-top: 0.5rem;
+}
+
+/* ============ MOBILE ============ */
+@media (max-width: 720px) {
+  .custom-cursor {
+    display: none;
+  }
+
+  .logo {
+    grid-column: span 2;
+  }
+  #logo-animation {
+    align-self: stretch;
+    width: 175px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 7px;
+    padding: 0 1rem;
+  }
+
+  .archive-grid {
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+  }
+
+  .collab,
+  .local,
+  .category {
+    display: none;
+  }
+
+  .archive-grid > .title {
+    grid-column: span 3;
+  }
+
+  .project-content p {
+    grid-column: 1 / span 5;
+  }
+
+  .project-content img {
+    grid-column: span 5;
+  }
+
+  .filters select:nth-of-type(n+3), /* hides category on mobile */
+  .filters button:nth-of-type(3) {
+    display: none;
+  }
+}

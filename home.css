@@ -191,6 +191,7 @@ html {
   .image-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-auto-rows: 160px;
+    align-items: center;
   }
 }
 @media (max-width: 600px) {

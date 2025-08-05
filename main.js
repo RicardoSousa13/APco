@@ -19,43 +19,64 @@ links.forEach((link) => {
 // ---------- Lottie Animation ----------
 const logoContainer = document.getElementById("logo-animation");
 
-const logoAnimation = lottie.loadAnimation({
-  container: logoContainer,
-  renderer: "svg",
-  loop: false,
-  autoplay: false,
-  path: "logos/Scene-1.json", // 👈 update to your actual path
-});
+const logoPaths = {
+  light: "logos/logo-dark.json", // Light mode animation
+  dark: "logos/logo-light.json", // Dark mode animation
+};
 
-// Set initial frame to 0 when loaded
-logoAnimation.addEventListener("DOMLoaded", () => {
-  logoAnimation.goToAndStop(0, true); // Start from the beginning
-});
+let logoAnimation;
 
-// Hover expands, leave compresses
-logoContainer.addEventListener("mouseenter", () => {
-  logoAnimation.setDirection(-1);
-  logoAnimation.play();
-});
-logoContainer.addEventListener("mouseleave", () => {
-  logoAnimation.setDirection(1);
-  logoAnimation.play();
-});
+function loadLogoAnimation(path) {
+  if (logoAnimation) {
+    logoAnimation.destroy();
+  }
 
-// Nav Mode toggle
-// Landing mode toggle
-const landingToggle = document.getElementById("mode-toggle-landing");
-if (landingToggle) {
-  landingToggle.addEventListener("click", () => {
-    document.body.classList.toggle("blue-mode");
+  logoAnimation = lottie.loadAnimation({
+    container: logoContainer,
+    renderer: "svg",
+    loop: false,
+    autoplay: false,
+    path: path,
+  });
+
+  logoAnimation.addEventListener("DOMLoaded", () => {
+    logoAnimation.goToAndStop(0, true);
+  });
+
+  logoContainer.addEventListener("mouseenter", () => {
+    logoAnimation.setDirection(-1);
+    logoAnimation.play();
+  });
+
+  logoContainer.addEventListener("mouseleave", () => {
+    logoAnimation.setDirection(1);
+    logoAnimation.play();
   });
 }
 
-// Regular dark mode toggle
+// Load default logo animation (light mode)
+loadLogoAnimation(logoPaths.light);
+
+// ---------- Dark Mode Toggle ----------
 const darkToggle = document.getElementById("mode-toggle-dark");
 if (darkToggle) {
   darkToggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
+    const isDark = document.body.classList.toggle("dark-mode");
+    const newPath = isDark ? logoPaths.dark : logoPaths.light;
+    loadLogoAnimation(newPath);
+    // Update button text
+    darkToggle.textContent = isDark ? "#ffffff" : "#000000";
+  });
+}
+
+// ---------- Optional Landing Mode Toggle ----------
+const landingToggle = document.getElementById("mode-toggle-landing");
+if (landingToggle) {
+  landingToggle.addEventListener("click", () => {
+    const isBlue = document.body.classList.toggle("blue-mode");
+
+    // Update button text
+    landingToggle.textContent = isBlue ? "#000000" : "#0000ff";
   });
 }
 
@@ -70,7 +91,7 @@ gsap.utils.toArray(".reveal-text").forEach((el) => {
     ease: "power2.out",
     scrollTrigger: {
       trigger: el,
-      start: "top 95%", // adjust as needed
+      start: "top 95%",
       toggleActions: "play none none none",
     },
   });
@@ -85,20 +106,20 @@ gsap.utils.toArray(".image-grid img").forEach((img) => {
     ease: "power3.out",
     scrollTrigger: {
       trigger: img,
-      start: "top 90%", // when the top of the image is near viewport bottom
+      start: "top 90%",
       toggleActions: "play none none none",
     },
   });
 });
 
-//lottie animation for the footer
-// Make sure logo is visible
+// ---------- Logo Scroll Interaction ----------
 gsap.set("#logo-animation", { opacity: 1 });
 
-// Track scroll direction
 let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
 window.addEventListener("scroll", () => {
+  if (!logoAnimation) return;
+
   const currentScrollTop =
     window.pageYOffset || document.documentElement.scrollTop;
 

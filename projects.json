@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+      "type": "regular",
+      "title": "Ambient Threads",
+      "collab": "LPN _ LAP",
+      "local": "Comporta",
+      "category": "Culture",
+      "year": "E2524"
+    },
+    {
+      "type": "expandable",
+      "title": "Casa do Outeiro",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha",
+      "category": "Historic Building",
+      "year": "25001",
+      "imageHorizontal": "arquive/01h.png",
+      "imageVertical": "arquive/01v.png",
+      "description": "Short description about Project Alpha. <br /> Architects: SU, Area: 1045m²"
+    },
+    {
+      "type": "featured",
+      "title": "Library Prototype",
+      "collab": "APco",
+      "local": "Lisbon",
+      "category": "Education",
+      "year": "24002",
+      "imageHorizontal": "arquive/14h.png",
+      "imageVertical": "arquive/14v.png",
+      "description": "Library project for rural area. <br /> Architects: SU, Area: 500m²",
+      "link": "projects/library.html"
+    }
+  ]
+}

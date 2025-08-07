@@ -163,6 +163,11 @@ p {
 /* ---------------------------------- */
 
 /* ----FOOTER---- */
+.arquive-footer {
+  position: fixed;
+  bottom: 20px;
+}
+
 .footer-p {
   font-size: 0.9rem;
   grid-column: span 3;

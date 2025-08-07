@@ -137,6 +137,9 @@ body.dark-mode .filter-btn {
 
 .filters select,
 .filters button {
+  -webkit-appearance: none; /* Removes Safari's native styling */
+  -moz-appearance: none; /* For Firefox */
+  appearance: none; /* Standard */
   background: transparent;
   border: none;
   border-bottom: 0.5px solid black;

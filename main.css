@@ -204,4 +204,7 @@ p {
   .footer-p {
     margin-bottom: 2em;
   }
+  .arquive-footer {
+    bottom: 0px;
+  }
 }

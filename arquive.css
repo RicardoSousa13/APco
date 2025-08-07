@@ -195,7 +195,6 @@ summary::-webkit-details-marker {
 }
 .archive-grid > .title {
   grid-column: span 2;
-  font-weight: bold;
 }
 
 /* Expanded content */
@@ -269,7 +268,7 @@ summary::-webkit-details-marker {
   }
 
   .archive-grid > .title {
-    grid-column: span 3;
+    grid-column: span 4;
   }
   .archive-list details[open] > *:not(summary) {
     display: none;
@@ -289,6 +288,6 @@ summary::-webkit-details-marker {
   }
 
   #filter-local {
-    grid-column: 1;
+    grid-column: 1 / span 2;
   }
 }

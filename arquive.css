@@ -214,17 +214,21 @@ summary::-webkit-details-marker {
   grid-column: span 2;
 }
 .project-content img {
-  width: 100%;
   height: auto;
   object-fit: contain; /* or unset */
   display: block;
 }
-
-/* Featured project style (JS will add class .featured-project) */
-.featured-project {
-  background-color: #f4f4f4;
-  padding: 1rem 0;
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
+.project-info a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .featured-project .project-content {
   margin-top: 0.5rem;
 }

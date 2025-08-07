@@ -63,21 +63,42 @@ function renderProjects(projects, showFeaturedOnly = false) {
       const content = document.createElement("div");
       content.className = "project-content";
 
-      content.innerHTML = `
-        <img src="${project.imageHorizontal}" alt="Horizontal image" />
-        <img src="${project.imageVertical}" alt="Vertical image" />
-        <p>${project.description}</p>
-      `;
+      // Create the horizontal image
+      const imgHorizontal = document.createElement("img");
+      imgHorizontal.src = project.imageHorizontal;
+      imgHorizontal.alt = "Horizontal image";
 
-      // Optional link if featured
+      // Create the vertical image
+      const imgVertical = document.createElement("img");
+      imgVertical.src = project.imageVertical;
+      imgVertical.alt = "Vertical image";
+
+      // Create the info container
+      const info = document.createElement("div");
+      info.className = "project-info";
+
+      // Create the description paragraph
+      const description = document.createElement("p");
+      description.innerHTML = project.description;
+
+      // Append the description to the info block
+      info.appendChild(description);
+
+      // If featured, add the link inside the info block
       if (project.type === "featured" && project.link) {
         const link = document.createElement("a");
         link.href = project.link;
-        link.textContent = "View Project";
+        link.textContent = "View Project → ";
         link.classList.add("featured-link");
-        content.appendChild(link);
+        info.appendChild(link);
       }
 
+      // Append all to content
+      content.appendChild(imgHorizontal);
+      content.appendChild(imgVertical);
+      content.appendChild(info);
+
+      // Finally, append content to the project <details>
       details.appendChild(content);
     }
 

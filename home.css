@@ -59,6 +59,7 @@ html {
 }
 .landingParagraph {
   grid-column: span 7;
+  width: 75%;
 }
 
 .nav-container a {
@@ -66,7 +67,7 @@ html {
   font-size: 0.8rem;
   text-decoration: none;
   color: #000;
-  /* transition: 0.3s ease; */
+  transition: 0.3s ease;
   text-transform: uppercase;
   align-content: center;
   text-align: right;
@@ -92,21 +93,13 @@ html {
 /*  ------------ END NAV ------------ */
 /* ------------------------------ */
 
-/* ------- GRID TEMPLATE */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: 20px;
-  padding: 0 1rem;
-}
-/* -------- END GRID TEMPLATE */
-
 /* ----------- IMAGE GRID -----------  */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-auto-rows: 120px;
   gap: 80px;
+  row-gap: 100px;
   padding: 1rem;
   z-index: 0;
 }
@@ -116,7 +109,7 @@ html {
   height: auto;
   object-fit: contain; /* or unset */
   display: block;
-  will-change: opacity, transform;
+  filter: opacity(0.6);
 }
 
 /* Organic sizing */

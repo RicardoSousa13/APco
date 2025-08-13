@@ -87,11 +87,11 @@ gsap.utils.toArray(".reveal-text").forEach((el) => {
   gsap.from(el, {
     opacity: 0,
     y: 25,
-    duration: 1.5,
+    duration: 1.3,
     ease: "power2.out",
     scrollTrigger: {
       trigger: el,
-      start: "top 95%",
+      start: "top 92%",
       toggleActions: "play none none none",
     },
   });

@@ -103,7 +103,7 @@ body.dark-mode .filter-btn {
   font-size: 0.8rem;
   text-decoration: none;
   color: #000;
-  /* transition: 0.3s ease; */
+  transition: 0.3s ease;
   text-transform: uppercase;
   align-content: center;
   text-align: right;
@@ -115,15 +115,6 @@ body.dark-mode .filter-btn {
 
 /*  ------------ END NAV ------------ */
 /* ------------------------------ */
-
-/* ------- GRID TEMPLATE */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: 20px;
-  padding: 0 1rem;
-}
-/* -------- END GRID TEMPLATE */
 
 /* ============ ARCHIVE PAGE ============ */
 .project-list {
@@ -194,7 +185,7 @@ summary::-webkit-details-marker {
 .archive-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  column-gap: 20px;
+  column-gap: 13px;
 }
 .archive-grid > .title {
   grid-column: span 2;
@@ -204,7 +195,7 @@ summary::-webkit-details-marker {
 .project-content {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  column-gap: 20px;
+  column-gap: 13px;
   margin-top: 1rem;
   font-size: 0.8rem;
   line-height: 1.5;
@@ -216,6 +207,7 @@ summary::-webkit-details-marker {
   grid-column: span 2;
 }
 .project-content img {
+  width: 100%;
   height: auto;
   object-fit: contain; /* or unset */
   display: block;
@@ -250,13 +242,6 @@ summary::-webkit-details-marker {
   #logo-animation {
     align-self: stretch;
     width: 175px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 7px;
-    row-gap: 10px;
-    padding: 0 1rem;
   }
 
   .archive-grid {

@@ -162,6 +162,19 @@ p {
 /* ---------- END SETUP ------------ */
 /* ---------------------------------- */
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------- GRID TEMPLATE */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+  padding: 0 1rem;
+}
+/* -------- END GRID TEMPLATE */
+
 /* ----FOOTER---- */
 .arquive-footer {
   position: fixed;
@@ -190,6 +203,13 @@ p {
 }
 
 @media (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 7px;
+    padding: 0 1rem;
+  }
+
   #footer {
     display: flex;
     flex-direction: column;

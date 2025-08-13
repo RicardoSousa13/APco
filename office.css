@@ -95,7 +95,7 @@ body.dark-mode button {
   font-size: 0.8rem;
   text-decoration: none;
   color: #000;
-  /* transition: 0.3s ease; */
+  transition: 0.3s ease;
   text-transform: uppercase;
   align-content: center;
   text-align: right;
@@ -107,15 +107,6 @@ body.dark-mode button {
 
 /*  ------------ END NAV ------------ */
 /* ------------------------------ */
-
-/* ------- GRID TEMPLATE */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: 20px;
-  padding: 0 1rem;
-}
-/* -------- END GRID TEMPLATE */
 
 #office {
   margin: 13em 0 7em 0;
@@ -205,12 +196,6 @@ h4 {
   #logo-animation {
     align-self: stretch;
     width: 175px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 7px;
-    padding: 0 1rem;
   }
 
   .approach-img1 {

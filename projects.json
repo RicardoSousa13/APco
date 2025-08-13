@@ -20,16 +20,17 @@
       "description": "Short description about Project Alpha. <br /> Architects: SU, Area: 1045m²"
     },
     {
-      "type": "featured",
-      "title": "Library Prototype",
-      "collab": "APco",
-      "local": "Lisbon",
-      "category": "Education",
-      "year": "24002",
-      "imageHorizontal": "arquive/14h.png",
-      "imageVertical": "arquive/14v.png",
-      "description": "Library project for rural area. <br /> Architects: SU, Area: 500m²",
-      "link": "projects/library.html"
+      "type": "regular",
+      "title": "Project Name",
+      "collab": "Collaboration Name",
+      "local": "Local/City Name",
+      "category": "Category Name",
+      "year": "2023",
+      "status": "Status text",
+      "description": "Description text here (only for expandable or featured types)",
+      "imageHorizontal": "path/to/horizontal.jpg",
+      "imageVertical": "path/to/vertical.jpg",
+      "link": "optional-link-if-featured"
     }
   ]
 }

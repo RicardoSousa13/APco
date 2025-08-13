@@ -1,36 +1,501 @@
 {
   "projects": [
     {
-      "type": "regular",
-      "title": "Ambient Threads",
+      "type": "expandable",
+      "title": "‘todas as noites' exhibition by Pedro Magalhães",
       "collab": "LPN _ LAP",
-      "local": "Comporta",
+      "local": "Porto, PT",
       "category": "Culture",
-      "year": "E2524"
+      "year": "E2322",
+      "status": "Completed",
+      "imageHorizontal": "arquive/17h.png",
+      "imageVertical": "arquive/17v.png"
     },
+
+    {
+      "type": "regular",
+      "title": "Santo Antão das Presas",
+      "collab": "APco + AM_PM",
+      "local": "Sever do Vouga, PT",
+      "category": "Historic Building",
+      "year": "23012",
+      "status": "Design Development",
+      "description": "Renovation Project for Boutique Hotel Building for Mariana de Araújo e Albuquerque ",
+      "imageHorizontal": "arquive/18h.png",
+      "imageVertical": "arquive/18v.png",
+      "link": "optional-link-if-featured"
+    },
+
     {
       "type": "expandable",
-      "title": "Casa do Outeiro",
-      "collab": "APco",
-      "local": "Albergaria-a-Velha",
-      "category": "Historic Building",
-      "year": "25001",
-      "imageHorizontal": "arquive/01h.png",
-      "imageVertical": "arquive/01v.png",
-      "description": "Short description about Project Alpha. <br /> Architects: SU, Area: 1045m²"
+      "title": "Parque – Conjunto Habitacional Luso-Lima 1958-2023",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Publication",
+      "year": "P2311",
+      "status": "Completed",
+      "description": "Renovation Project for Boutique Hotel Building for Mariana de Araújo e Albuquerque ",
+      "imageHorizontal": "arquive/17h.png",
+      "imageVertical": "arquive/17v.png"
     },
+
     {
       "type": "regular",
-      "title": "Project Name",
-      "collab": "Collaboration Name",
-      "local": "Local/City Name",
-      "category": "Category Name",
-      "year": "2023",
-      "status": "Status text",
-      "description": "Description text here (only for expandable or featured types)",
-      "imageHorizontal": "path/to/horizontal.jpg",
-      "imageVertical": "path/to/vertical.jpg",
+      "title": "Chemin Boissier",
+      "collab": "APco",
+      "local": "Geneva, CH",
+      "category": "Residencial",
+      "year": "23007",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Nossa Senhora da Cruz ",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Residencial",
+      "year": "23006",
+      "status": "Design Development"
+    },
+
+    {
+      "type": "regular",
+      "title": "Rua 7 497",
+      "collab": "APco",
+      "local": "Espinho, PT",
+      "category": "Residencial",
+      "year": "C 23004",
+      "status": "Concept"
+    },
+
+    {
+      "type": "expandable",
+      "title": "DKW [Arch. Arménio Losa e Cassiano Barbosa]",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "22009",
+      "status": "Completed",
+      "description": "Apartment Renovation Project for Single-Family Housing ",
+      "imageHorizontal": "arquive/24h.png",
+      "imageVertical": "arquive/24v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Casa de moinhos novos",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Residencial",
+      "year": "22008",
+      "status": "Completed",
+      "description": "Renovation Project for Eco Shelter Building for Albuquerque Pinho",
+      "imageHorizontal": "arquive/25h.png",
+      "imageVertical": "arquive/25v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": " Um Século de Arquitectura em Albergaria-a-Velha, 12 projectos de 1922-1936",
+      "collab": "APco + AM_PM",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Publication",
+      "year": "P2210",
+      "status": "Completed",
+      "description": "Research and Publication for Câmara Municipal de Albergaria-a-Velha",
+      "imageHorizontal": "arquive/26h.png",
+      "imageVertical": "arquive/26v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "projectos de 1922-1936",
+      "collab": "APco",
+      "local": "Annemasse, FR",
+      "category": "Residencial",
+      "year": "C 22004",
+      "status": "Completed",
+      "description": "Consultancy for Single-Family Residential Building as permanent mission of United Arab Emirates",
+      "imageHorizontal": "arquive/27h.png",
+      "imageVertical": "arquive/27v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Le Man – Villa",
+      "collab": "APco",
+      "local": "Chens sur Leman, FR",
+      "category": "Residencial",
+      "year": "P2311",
+      "status": "Design Development",
+      "description": "Consultancy for Single-Family Residential Building",
+      "imageHorizontal": "arquive/28h.png",
+      "imageVertical": "arquive/28v.png"
+    },
+
+    {
+      "type": "regular",
+      "title": "Nossa Senhora do Socorro",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Hotel",
+      "year": "22001",
+      "status": "Design Development"
+    },
+
+    {
+      "type": "regular",
+      "title": "Grand Tour",
+      "collab": "LPN _ LAP",
+      "local": "Siracusa, IT",
+      "category": "Culture",
+      "year": "E1815",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "MOTORDROMO",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1814",
+      "status": "Completed",
+      "description": "Exhibition display at SALA 117",
+      "imageHorizontal": "arquive/52h.png",
+      "imageVertical": "arquive/52v.png"
+    },
+
+    {
+      "type": "regular",
+      "title": "ALL OFF",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1813",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Anotações Sonoras: Espaço, Pausa, Repetição",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1812",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Flores 159",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "18004",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Gomes Freire 60",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "18001",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Salon de l’iImobilier e du Tourisme Portugais à Paris",
+      "collab": "APco + GeA",
+      "local": "Paris, FR",
+      "category": "Presentation",
+      "year": "A1809",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Mar Novo",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1711",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Dois para Um ",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1710",
+      "status": "Completed",
+      "description": "Exhibition display",
+      "imageHorizontal": "arquive/60h.png",
+      "imageVertical": "arquive/60v.png"
+    },
+
+    {
+      "type": "regular",
+      "title": "Casa da Praça [Arch. Francisco da Silva Rocha]",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Residencial",
+      "year": "17010",
+      "status": "Construction",
+      "description": "Renovation Project for a Single-Family Residential Building",
+      "imageHorizontal": "arquive/61h.png",
+      "imageVertical": "arquive/61v.png",
       "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Senhora da Lapa 22",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "17008",
+      "status": "Completed",
+      "description": "Renovation Project for Residential Building for Paulo Neto",
+      "imageHorizontal": "arquive/52h.png",
+      "imageVertical": "arquive/52v.png"
+    },
+
+    {
+      "type": "regular",
+      "title": "Escritórios Ágora Porto — Teatro Municipal Rivoli ",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Office",
+      "year": "17007",
+      "status": "Completed",
+      "description": "Renovation and Conversion Project of the 5th and 6th Floor into Office Spaces",
+      "imageHorizontal": "arquive/63h.png",
+      "imageVertical": "arquive/63v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "regular",
+      "title": "Tomás Gonzaga 77",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "17005",
+      "status": "Study"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Escadas da Boa Passagem 70",
+      "collab": "APco + GeA",
+      "local": "Gaia, PT",
+      "category": "Residencial",
+      "year": "17004",
+      "status": "Design Development",
+      "description": "Renovation Project for Residential Building",
+      "imageHorizontal": "arquive/65h.png",
+      "imageVertical": "arquive/65v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Antunes Guimarães 697",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "17002",
+      "status": "Completed",
+      "description": "Renovation Project for a Single-Family Residential Building",
+      "imageHorizontal": "arquive/66h.png",
+      "imageVertical": "arquive/66v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Alegria 736",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "17001",
+      "status": "Completed",
+      "description": "Renovation Project for Residential Building",
+      "imageHorizontal": "arquive/67h.png",
+      "imageVertical": "arquive/67v.png"
+    },
+
+    {
+      "type": "regular",
+      "title": "Atlantic Design: A view from Porto",
+      "collab": "APco + GeA",
+      "local": "Barcelona, ES",
+      "category": "Presentation",
+      "year": "A1205",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "exposição / composição, Variação nº2 ",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1609",
+      "status": "Completed",
+      "description": "Exhibition </br> Porto Lazer, Câmara Municipal do Porto ",
+      "imageHorizontal": "arquive/70h.png",
+      "imageVertical": "arquive/70v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Questions of Relief",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1608",
+      "status": "Completed",
+      "description": "Exhibition </br> Porto Lazer, Câmara Municipal do Porto ",
+      "imageHorizontal": "arquive/71h.png",
+      "imageVertical": "arquive/71v.png"
+    },
+
+    {
+      "type": "regular",
+      "title": "Reencontro com Vergílio Ferreira",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1607",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Alumia, Elegia",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "A1607",
+      "status": "Completed",
+      "description": "Art and Design for the Public Space </br> Porto Lazer, Câmara Municipal do Porto ",
+      "imageHorizontal": "arquive/73h.png",
+      "imageVertical": "arquive/73v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "São Lázaro 40",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "16012",
+      "status": "Construction",
+      "description": "Renovation Project for Residential Building ",
+      "imageHorizontal": "arquive/74h.png",
+      "imageVertical": "arquive/74v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Porto before Porto, Triennale Milano",
+      "collab": "APco + GeA",
+      "local": "Milan, IT",
+      "category": "Publication",
+      "year": "A1610",
+      "status": "Completed",
+      "description": "Exhibition </br> Porto Lazer, Câmara Municipal do Porto ",
+      "imageHorizontal": "arquive/75h.png",
+      "imageVertical": "arquive/75v.png"
+    },
+
+    {
+      "type": "regular",
+      "title": "Santo Ildefonso 365",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "16011",
+      "status": "Study"
+    },
+
+    {
+      "type": "regular",
+      "title": "Boavista 473",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "16010",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Filipa de Lencastre 201",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "16005",
+      "status": "Study"
+    },
+
+    {
+      "type": "regular",
+      "title": "Terminal Intermodal de Campanhã",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Mixed-use",
+      "year": "16004",
+      "status": "Completed",
+      "description": "Competition Concept Design </br> Porto Câmara Municipal do Porto ",
+      "imageHorizontal": "arquive/79h.png",
+      "imageVertical": "arquive/79v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Mouzinho da Silveira 215",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "16002",
+      "status": "Completed",
+      "description": "Renovation Project for Residential Building </br> Doisloft ",
+      "imageHorizontal": "arquive/80h.png",
+      "imageVertical": "arquive/80v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Silo-Auto",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "16001",
+      "status": "Concept",
+      "description": "Renovation and Conversion Project of the 6th Floor into Artistic Residencies </br> Porto Lazer, Câmara Municipal do Porto ",
+      "imageHorizontal": "arquive/81h.png",
+      "imageVertical": "arquive/81v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Prémio João Almada ",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Presentation",
+      "year": "A1608",
+      "status": "Completed",
+      "description": "Competition award </br> Camara Municipal do Porto ",
+      "imageHorizontal": "arquive/82h.png",
+      "imageVertical": "arquive/82v.png"
     }
   ]
 }

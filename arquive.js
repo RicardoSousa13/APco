@@ -11,7 +11,7 @@ fetch("projects.json")
   .then((data) => {
     allProjects = data.projects;
 
-    // Populate dropdown filters
+    // Populate dropdown filters (no year)
     populateFilters(allProjects);
 
     // Initial render: all non-featured projects
@@ -30,10 +30,10 @@ function renderProjects(projects, showFeaturedOnly = false) {
     return project.type !== "featured";
   });
 
-  visibleProjects.forEach((project, index) => {
+  visibleProjects.forEach((project) => {
     const details = document.createElement("details");
     details.setAttribute("data-type", project.type);
-    details.setAttribute("data-year", project.year);
+    details.setAttribute("data-year", project.year); // still set for display
     details.setAttribute("data-local", project.local);
     details.setAttribute("data-category", project.category);
     details.setAttribute("data-featured", project.type === "featured");
@@ -49,13 +49,13 @@ function renderProjects(projects, showFeaturedOnly = false) {
     summary.className = "sections archive-grid";
 
     summary.innerHTML = `
-  <div class="collab">${project.collab || ""}</div>
-  <div class="year">${project.year || ""}</div>
-  <div class="title">${project.title || ""}</div>
-  <div class="local">${project.local || ""}</div>
-  <div class="category">${project.category || ""}</div>
-  <div class="status">${project.status || ""}</div>
-`;
+      <div class="collab">${project.collab || ""}</div>
+      <div class="year">${project.year || ""}</div>
+      <div class="title">${project.title || ""}</div>
+      <div class="local">${project.local || ""}</div>
+      <div class="category">${project.category || ""}</div>
+      <div class="status">${project.status || ""}</div>
+    `;
 
     details.appendChild(summary);
 
@@ -113,31 +113,29 @@ function renderProjects(projects, showFeaturedOnly = false) {
 }
 
 // -------------------------------
-// 👇 POPULATE DROPDOWN FILTERS
+// 👇 POPULATE DROPDOWN FILTERS (no year)
 // -------------------------------
 function populateFilters(projects) {
   const collaborations = new Set();
   const locals = new Set();
   const categories = new Set();
-  const years = new Set();
 
   projects.forEach((project) => {
     if (project.type !== "featured") {
       collaborations.add(project.collab);
       locals.add(project.local);
       categories.add(project.category);
-      years.add(project.year);
     }
   });
 
   fillSelect("filter-collaboration", collaborations);
   fillSelect("filter-local", locals);
   fillSelect("filter-category", categories);
-  fillSelect("filter-year", years);
 }
 
 function fillSelect(id, items) {
   const select = document.getElementById(id);
+  if (!select) return; // safeguard
   [...items].sort().forEach((item) => {
     const option = document.createElement("option");
     option.value = item;
@@ -147,13 +145,12 @@ function fillSelect(id, items) {
 }
 
 // -------------------------------
-// 👇 DROPDOWN FILTER HANDLING
+// 👇 DROPDOWN FILTER HANDLING (no year)
 // -------------------------------
 function filterAndRender() {
   const selectedCollab = document.getElementById("filter-collaboration").value;
   const selectedLocal = document.getElementById("filter-local").value;
   const selectedCategory = document.getElementById("filter-category").value;
-  const selectedYear = document.getElementById("filter-year").value;
 
   const filtered = allProjects.filter((project) => {
     if (project.type === "featured") return false;
@@ -164,33 +161,14 @@ function filterAndRender() {
       selectedLocal === "all" || project.local === selectedLocal;
     const matchCategory =
       selectedCategory === "all" || project.category === selectedCategory;
-    const matchYear = selectedYear === "all" || project.year === selectedYear;
 
-    return matchCollab && matchLocal && matchCategory && matchYear;
+    return matchCollab && matchLocal && matchCategory;
   });
 
   renderProjects(filtered, false);
 }
 
 // Attach change event listeners to dropdowns
-[
-  "filter-collaboration",
-  "filter-local",
-  "filter-category",
-  "filter-year",
-].forEach((id) => {
+["filter-collaboration", "filter-local", "filter-category"].forEach((id) => {
   document.getElementById(id).addEventListener("change", filterAndRender);
-});
-
-// -------------------------------
-// 👇 FEATURED / ALL BUTTONS
-// -------------------------------
-document
-  .querySelector('[data-filter="featured"]')
-  .addEventListener("click", () => {
-    renderProjects(allProjects, true); // only featured
-  });
-
-document.querySelector('[data-filter="all"]').addEventListener("click", () => {
-  renderProjects(allProjects, false); // reset to all non-featured
 });

@@ -1,6 +1,149 @@
 {
   "projects": [
     {
+      "type": "regular",
+      "title": "Ambient Threads at KUBIKGALLERY",
+      "collab": "LPN _ LAP",
+      "local": "Comporta, PT",
+      "category": "Culture",
+      "year": "E2524",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Quinta das Cardonas",
+      "collab": "APco",
+      "local": "Freixo da Serra, PT",
+      "category": "Residencial",
+      "year": "25007",
+      "status": "Design Development",
+      "imageHorizontal": "arquive/04h.png",
+      "imageVertical": "arquive/04v.png",
+      "description": "Project design for Single-Family Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "António Alegria 57",
+      "collab": "APco + AM_PM",
+      "local": "Oliveira de Azeméis, PT",
+      "category": "Historic Building",
+      "year": "C 25005",
+      "status": "Design Development"
+    },
+
+    {
+      "type": "featured",
+      "title": "Casa do Outeiro",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Historic Building",
+      "year": "25001",
+      "status": "Design Development",
+      "description": "Renovation Project for Boutique Hotel Building",
+      "imageHorizontal": "arquive/06h.png",
+      "imageVertical": "arquive/06v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Ponto C - Sala Eurico",
+      "collab": "LPN _ LAP",
+      "local": "Penafiel",
+      "category": "Culture",
+      "year": "E2423",
+      "status": "Completed",
+      "imageHorizontal": "arquive/08h.png",
+      "imageVertical": "arquive/08v.png",
+      "description": "Exhibition Design for Município de Penafiel"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Veiga",
+      "collab": "APco",
+      "local": "Cabeceiras de Basto, PT",
+      "category": "Residencial",
+      "year": "24012",
+      "status": "Design Development",
+      "imageHorizontal": "arquive/09h.png",
+      "imageVertical": "arquive/09v.png",
+      "description": "Project design for Single-Family Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Boa Passagem 5",
+      "collab": "APco",
+      "local": "Gaia, PT",
+      "category": "Residencial",
+      "year": "24010",
+      "status": "Design Development"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Regadas",
+      "collab": "APco",
+      "local": "Freixo da Serra, PT",
+      "category": "Residencial",
+      "year": "24007",
+      "status": "Design Development",
+      "imageHorizontal": "arquive/11h.png",
+      "imageVertical": "arquive/11v.png",
+      "description": "Renovation Project of a Single-Family Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Bettter",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Office",
+      "year": "24006",
+      "status": "Design Development"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Paraíso 27",
+      "collab": "APco",
+      "local": "Branca, PT",
+      "category": "Residencial",
+      "year": "24005",
+      "status": "Design Development",
+      "imageHorizontal": "arquive/13h.png",
+      "imageVertical": "arquive/13v.png",
+      "description": "Project design for Single-Family Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Monte Cativo 312",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "C 24004",
+      "status": "Construction"
+    },
+
+    {
+      "type": "featured",
+      "title": "MNAC – Chiado Museum",
+      "collab": "APco + SB + LPN",
+      "local": "Lisboa, PT",
+      "category": "Culture",
+      "year": "24001",
+      "status": "Competition",
+      "description": "Competition Concept Design for Património Cultural, República Portuguesa",
+      "imageHorizontal": "arquive/15h.png",
+      "imageVertical": "arquive/15v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
       "type": "expandable",
       "title": "‘todas as noites' exhibition by Pedro Magalhães",
       "collab": "LPN _ LAP",
@@ -13,7 +156,7 @@
     },
 
     {
-      "type": "regular",
+      "type": "featured",
       "title": "Santo Antão das Presas",
       "collab": "APco + AM_PM",
       "local": "Sever do Vouga, PT",
@@ -145,6 +288,213 @@
     },
 
     {
+      "type": "expandable",
+      "title": "Autre-là",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E2121",
+      "status": "Completed",
+      "imageHorizontal": "arquive/31h.png",
+      "imageVertical": "arquive/31v.png",
+      "description": "Exhibition for Bienal Design do Porto, Institut Français du Portugal"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Ária do Encanto – uma flor que talvez não distinga o céu e a terra",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E2120",
+      "status": "Completed",
+      "imageHorizontal": "arquive/32h.png",
+      "imageVertical": "arquive/32v.png",
+      "description": "Exhibition for Galeria Quadrado Azul"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Um Século de Arquitectura em Albergaria-a-Velha, 21 projectos de 1900-1921",
+      "collab": "APco + AM_PM",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Publication",
+      "year": "P2109",
+      "status": "Completed",
+      "imageHorizontal": "arquive/32h.png",
+      "imageVertical": "arquive/32v.png",
+      "description": "Research and Publication for Câmara Municipal de Albergaria-a-Velha"
+    },
+
+    {
+      "type": "regular",
+      "title": "João Corte Real 72",
+      "collab": "APco",
+      "local": "Aveiro, PT",
+      "category": "Residencial",
+      "year": "C 21010",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Al Reef Palace",
+      "collab": "APco",
+      "local": "Abu Dhabi, UAE",
+      "category": "Residencial",
+      "year": "C 21003",
+      "status": "Completed",
+      "imageHorizontal": "arquive/35h.png",
+      "imageVertical": "arquive/35v.png",
+      "description": "Consultancy for Residential building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Vistas de Exposição – exposições Magnas da ESBAP 1952-68",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E2019",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Al Bahia – Villa",
+      "collab": "APco",
+      "local": "Chens sur Leman, FR",
+      "category": "Residencial",
+      "year": "C 20005",
+      "status": "Completed",
+      "imageHorizontal": "arquive/38h.png",
+      "imageVertical": "arquive/38v.png",
+      "description": "Consultancy for Single-Family Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Witley Park",
+      "collab": "APco",
+      "local": "London, UK",
+      "category": "Residencial",
+      "year": "20004",
+      "status": "Completed",
+      "imageHorizontal": "arquive/39h.png",
+      "imageVertical": "arquive/39v.png",
+      "description": "Consultancy for Residential building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Chemin de Ruth 24 – Chateau",
+      "collab": "APco",
+      "local": "Geneva, CH",
+      "category": "Residencial",
+      "year": "C 20002",
+      "status": "Completed",
+      "imageHorizontal": "arquive/38h.png",
+      "imageVertical": "arquive/38v.png",
+      "description": "Consultancy for Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Non perso ma trovato at KUBIKGALLERY",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1918",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "GT_S · Pedro Tudela",
+      "collab": "LPN _ LAP",
+      "local": "Siracusa, IT",
+      "category": "Culture",
+      "year": "E1917",
+      "status": "Completed",
+      "imageHorizontal": "arquive/43h.png",
+      "imageVertical": "arquive/43v.png",
+      "description": "Exhibition"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Bienal de Arte Contemporânea da Maia 2019",
+      "collab": "LPN _ LAP",
+      "local": "Maia, PT",
+      "category": "Culture",
+      "year": "E1916",
+      "status": "Completed",
+      "imageHorizontal": "arquive/43h.png",
+      "imageVertical": "arquive/43v.png",
+      "description": "Exhibition at Município da Maia"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Parque Itália",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Office",
+      "year": "19009",
+      "status": "Completed",
+      "imageHorizontal": "arquive/45h.png",
+      "imageVertical": "arquive/45v.png",
+      "description": "Renovation Project Office Spaces"
+    },
+
+    {
+      "type": "regular",
+      "title": "OPO — CGN",
+      "collab": "LPN _ LAP",
+      "local": "Köln, DE",
+      "category": "Publication",
+      "year": "P1908",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Dr. Alexandre Albuquerque 17",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Residencial",
+      "year": "19008",
+      "status": "Concept"
+    },
+
+    {
+      "type": "featured",
+      "title": "Largo de Ancide 11",
+      "collab": "APco",
+      "local": "Lousado, PT",
+      "category": "Residencial",
+      "year": "19007",
+      "status": "Completed",
+      "description": "Renovation Project for a Single-Family Residential Building",
+      "imageHorizontal": "arquive/48h.png",
+      "imageVertical": "arquive/48v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Colégio – Quinta Nova",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Residencial",
+      "year": "19006",
+      "status": "Design Development",
+      "imageHorizontal": "arquive/49h.png",
+      "imageVertical": "arquive/49v.png",
+      "description": "Project Design for Residential Building"
+    },
+
+    {
       "type": "regular",
       "title": "Grand Tour",
       "collab": "LPN _ LAP",
@@ -241,7 +591,7 @@
     },
 
     {
-      "type": "regular",
+      "type": "featured",
       "title": "Casa da Praça [Arch. Francisco da Silva Rocha]",
       "collab": "APco",
       "local": "Albergaria-a-Velha, PT",
@@ -268,7 +618,7 @@
     },
 
     {
-      "type": "regular",
+      "type": "featured",
       "title": "Escritórios Ágora Porto — Teatro Municipal Rivoli ",
       "collab": "APco + GeA",
       "local": "Porto, PT",
@@ -446,7 +796,7 @@
     },
 
     {
-      "type": "regular",
+      "type": "featured",
       "title": "Terminal Intermodal de Campanhã",
       "collab": "APco + GeA",
       "local": "Porto, PT",
@@ -496,6 +846,1097 @@
       "description": "Competition award </br> Camara Municipal do Porto ",
       "imageHorizontal": "arquive/82h.png",
       "imageVertical": "arquive/82v.png"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Louro e Bambu - segundo acto, figuração do exótico",
+      "collab": "LPN _ LAP",
+      "local": "Guimarães, PT",
+      "category": "Culture",
+      "year": "E1506",
+      "status": "Completed",
+      "imageHorizontal": "arquive/84h.png",
+      "imageVertical": "arquive/84v.png",
+      "description": "Exhibition"
+    },
+
+    {
+      "type": "expandable",
+      "title": "It was only a moment for you, by Candice Linn",
+      "collab": "LPN _ LAP",
+      "local": "Guimarães, PT",
+      "category": "Culture",
+      "year": "E1505",
+      "status": "Completed",
+      "imageHorizontal": "arquive/85h.png",
+      "imageVertical": "arquive/85v.png",
+      "description": "Exhibition"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Santa Catarina 1255",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15014",
+      "status": "Completed",
+      "imageHorizontal": "arquive/86h.png",
+      "imageVertical": "arquive/86v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Breiner 225",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15012",
+      "status": "Completed",
+      "imageHorizontal": "arquive/87h.png",
+      "imageVertical": "arquive/87v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "featured",
+      "title": "Formosa 112",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15011",
+      "status": "Completed",
+      "description": "Renovation Project for Residential Building",
+      "imageHorizontal": "arquive/88h.png",
+      "imageVertical": "arquive/88v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Sá de Noronha 53",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15010",
+      "status": "Completed",
+      "imageHorizontal": "arquive/89h.png",
+      "imageVertical": "arquive/89v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Santo Ildefonso 469",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15009",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Alexandre Braga 42",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15008",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Escadas do Codeçal 60",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15007",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Alegria 142",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15006",
+      "status": "Completed",
+      "imageHorizontal": "arquive/93h.png",
+      "imageVertical": "arquive/93v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Alves da Veiga 81",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15005",
+      "status": "Completed",
+      "imageHorizontal": "arquive/94h.png",
+      "imageVertical": "arquive/94v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Loios 78",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15004",
+      "status": "Completed",
+      "imageHorizontal": "arquive/93h.png",
+      "imageVertical": "arquive/93v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Parque Urbano no Campo 24 de Agosto",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Masterplan",
+      "year": "15003",
+      "status": "Study"
+    },
+
+    {
+      "type": "featured",
+      "title": "Matadouro Municipal do Porto",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "15002",
+      "status": "Commissioned Study",
+      "description": "Renovation and Extension Project for Cultural Facilities and Service Building Complex for Câmara Municipal do Porto",
+      "imageHorizontal": "arquive/97h.png",
+      "imageVertical": "arquive/97v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Edifício Alegria 283",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "15001",
+      "status": "Completed",
+      "imageHorizontal": "arquive/93h.png",
+      "imageVertical": "arquive/93v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Almada 392",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14031",
+      "status": "Completed",
+      "imageHorizontal": "arquive/100h.png",
+      "imageVertical": "arquive/100v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "featured",
+      "title": "Cais da Fontainha 122",
+      "collab": "APco + GeA",
+      "local": "Gaia, PT",
+      "category": "Residencial",
+      "year": "14030",
+      "status": "Completed",
+      "description": "Interior design, Renovation Project for Residential Building",
+      "imageHorizontal": "arquive/101h.png",
+      "imageVertical": "arquive/101v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "regular",
+      "title": "Antunes Guimarães 1089",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14029",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Breiner 195",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14028",
+      "status": "Completed",
+      "imageHorizontal": "arquive/103h.png",
+      "imageVertical": "arquive/103v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Largo da Lapa 33",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14027",
+      "status": "Completed",
+      "imageHorizontal": "arquive/104h.png",
+      "imageVertical": "arquive/104v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Formosa 102",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14026",
+      "status": "Completed",
+      "imageHorizontal": "arquive/103h.png",
+      "imageVertical": "arquive/103v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Flores 159",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14024",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Flores 157",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14023",
+      "status": "Completed",
+      "imageHorizontal": "arquive/103h.png",
+      "imageVertical": "arquive/103v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Passos Manuel 156",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14022",
+      "status": "Construction"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Almada 456",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14021",
+      "status": "Completed",
+      "imageHorizontal": "arquive/109h.png",
+      "imageVertical": "arquive/109v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Castanhal 8",
+      "collab": "APco + GeA",
+      "local": "Maia, PT",
+      "category": "Residencial",
+      "year": "14020",
+      "status": "Completed",
+      "imageHorizontal": "arquive/110h.png",
+      "imageVertical": "arquive/110v.png",
+      "description": "Single Family House"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Fernandes Tomás 896",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14019",
+      "status": "Completed",
+      "imageHorizontal": "arquive/111h.png",
+      "imageVertical": "arquive/111v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "República 186",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14018",
+      "status": "Completed",
+      "imageHorizontal": "arquive/111h.png",
+      "imageVertical": "arquive/111v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Santo Ildefonso 60",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14017",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Clemente Menéres 98",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14016",
+      "status": "Concept"
+    },
+
+    {
+      "type": "regular",
+      "title": "Jardim do Carregal",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14015",
+      "status": "Study"
+    },
+
+    {
+      "type": "regular",
+      "title": "Jardim do Carregal 65",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14014",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Alexandre Braga 88",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14012",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Flores 213",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14010",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Santa Catarina 783",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14009",
+      "status": "Completed",
+      "imageHorizontal": "arquive/119h.png",
+      "imageVertical": "arquive/119v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Fernandes Tomás 270",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14008",
+      "status": "Completed",
+      "imageHorizontal": "arquive/120h.png",
+      "imageVertical": "arquive/120v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Flores 88",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14007",
+      "status": "Concept",
+      "imageHorizontal": "arquive/121h.png",
+      "imageVertical": "arquive/121v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Dom João IV 836",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14006",
+      "status": "Completed",
+      "imageHorizontal": "arquive/122h.png",
+      "imageVertical": "arquive/122v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Edifício Parnaso [Arch. José Carlos Loureiro]",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "C14004",
+      "status": "Design Development"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Cativo 34",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14003",
+      "status": "Completed",
+      "imageHorizontal": "arquive/122h.png",
+      "imageVertical": "arquive/122v.png",
+      "description": "Renovation Project for Residential Building"
+    },
+
+    {
+      "type": "regular",
+      "title": "Virtudes 5",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14002",
+      "status": "Study"
+    },
+
+    {
+      "type": "featured",
+      "title": "Vilarinha 871",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "14001",
+      "status": "Completed",
+      "description": "Renovation and Expansion Project of a Single-Family Residential Building </br> Gonçalo Barros Marcelino, Eliana Nogueira",
+      "imageHorizontal": "arquive/126h.png",
+      "imageVertical": "arquive/126v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "regular",
+      "title": "Trinta e um de Janeiro 126",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13018",
+      "status": "Concept"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Fontainhas 99",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13017",
+      "status": "Completed",
+      "imageHorizontal": "arquive/129h.png",
+      "imageVertical": "arquive/129v.png",
+      "description": "Renovation Project for Residential Building </br> Hugo Rocha"
+    },
+
+    {
+      "type": "regular",
+      "title": "Francisco Rocha Soares 57",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13015",
+      "status": "Construction",
+      "description": "Renovation Project for Residential Building </br> José Sequeira Pinto, Maria Clara Sequeira Pinto",
+      "imageHorizontal": "arquive/130h.png",
+      "imageVertical": "arquive/130v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "featured",
+      "title": "Alves da Veiga 77",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13014",
+      "status": "Completed",
+      "description": "Renovation Project for Residential Building </br> DoisLoft",
+      "imageHorizontal": "arquive/130h.png",
+      "imageVertical": "arquive/130v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "regular",
+      "title": "Campo Mártires da Pátria 25",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13013",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Flores 51",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13012",
+      "status": "Completed",
+      "imageHorizontal": "arquive/133h.png",
+      "imageVertical": "arquive/133v.png",
+      "description": "Renovation Project for Residential Building </br> Harmonia do Futuro"
+    },
+
+    {
+      "type": "regular",
+      "title": "Senhora das Dores 57",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13011",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Alegria 158",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13010",
+      "status": "Completed",
+      "imageHorizontal": "arquive/136h.png",
+      "imageVertical": "arquive/136v.png",
+      "description": "Renovation Project for Residential Building </br> Harmonia do Futuro"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Aires de Gouveia 41",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13008",
+      "status": "Completed",
+      "imageHorizontal": "arquive/137h.png",
+      "imageVertical": "arquive/137v.png",
+      "description": "Renovation Project for Residential Building </br> Harmonia do Futuro"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Formosa 173",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13007",
+      "status": "Completed",
+      "imageHorizontal": "arquive/133h.png",
+      "imageVertical": "arquive/133v.png",
+      "description": "Renovation Project for Residential Building </br> DoisLoft"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Sousa Viterbo 81",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13005",
+      "status": "Completed",
+      "imageHorizontal": "arquive/138h.png",
+      "imageVertical": "arquive/138v.png",
+      "description": "Renovation Project for Residential Building </br> PortoBaixa"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Alegria 64",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13004",
+      "status": "Completed",
+      "imageHorizontal": "arquive/139h.png",
+      "imageVertical": "arquive/139v.png",
+      "description": "Renovation Project for Residential Building </br> Oscar Leite"
+    },
+
+    {
+      "type": "regular",
+      "title": "Escadas da Boa Passagem 35",
+      "collab": "APco",
+      "local": "Gaia, PT",
+      "category": "Residencial",
+      "year": "13003",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Santo Ildefonso 17",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "13001",
+      "status": "Study"
+    },
+
+    {
+      "type": "regular",
+      "title": "CONVERGENT BOUNDARIES, uma mostra P411 – 41o08’44.49’’N - 8o36’02.78’’W",
+      "collab": "LPN _ LAP + VT",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1204",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Jardim do Carregal 87",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "12020",
+      "status": "Completed",
+      "imageHorizontal": "arquive/144h.png",
+      "imageVertical": "arquive/144v.png",
+      "description": "Renovation Project for Residential Building </br> Avelino da Silva"
+    },
+
+    {
+      "type": "regular",
+      "title": "Alexandre Herculano 385",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "12015",
+      "status": "Concept"
+    },
+
+    {
+      "type": "regular",
+      "title": "Andaime",
+      "collab": "LPN _ LAP",
+      "local": "Porto, PT",
+      "category": "Publication",
+      "year": "P1207",
+      "status": "Completed"
+    },
+
+    {
+      "type": "featured",
+      "title": "Avenida Brasil 567",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "12013",
+      "status": "Completed",
+      "description": "Apartment Renovation Project for Single-Family Housing </br> Nuno Rocha, Leonor Rocha",
+      "imageHorizontal": "arquive/147h.png",
+      "imageVertical": "arquive/147v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "FESTIM",
+      "collab": "LPN _ LAP + VT",
+      "local": "Porto, PT",
+      "category": "Publication",
+      "year": "P1206",
+      "status": "Completed",
+      "imageHorizontal": "arquive/148h.png",
+      "imageVertical": "arquive/148v.png",
+      "description": "Research and Publication"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Alegria 129",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "12010",
+      "status": "Completed",
+      "imageHorizontal": "arquive/148h.png",
+      "imageVertical": "arquive/148v.png",
+      "description": "Renovation Project for Residential Building </br> Avelino da Silva"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Alexandre Braga 82",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "12006",
+      "status": "Completed",
+      "imageHorizontal": "arquive/148h.png",
+      "imageVertical": "arquive/148v.png",
+      "description": "Renovation Project for Residential Building </br> Avelino da Silva"
+    },
+
+    {
+      "type": "regular",
+      "title": "AMOSTRA – Reabilitação no Porto",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "A1201",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Conceive-construct-consume : Developing approaches in",
+      "collab": "APco",
+      "local": "Berlin, DE",
+      "category": "Publication",
+      "year": "P1105",
+      "status": "Completed",
+      "imageHorizontal": "arquive/153h.png",
+      "imageVertical": "arquive/153v.png",
+      "description": "Publication </br> Node Center, Berlin"
+    },
+
+    {
+      "type": "regular",
+      "title": "Collected Encounters",
+      "collab": "APco",
+      "local": "Berlin, DE",
+      "category": "Publication",
+      "year": "P1104",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Curatorial practice",
+      "collab": "APco",
+      "local": "Berlin, DE",
+      "category": "Culture",
+      "year": "E1103",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Depois dos Quatro Vintes: percursos individuais",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1102",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "HóSPEDE, Ensaio Curatorial",
+      "collab": "LPN _ LAP + VT",
+      "local": "Porto, PT",
+      "category": "Culture",
+      "year": "E1101",
+      "status": "Completed",
+      "imageHorizontal": "arquive/157h.png",
+      "imageVertical": "arquive/157v.png",
+      "description": "Exhibition"
+    },
+
+    {
+      "type": "featured",
+      "title": "Alexandre Braga 76",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "11011",
+      "status": "Completed",
+      "description": "Renovation Project for Residential Building </br> João Costa",
+      "imageHorizontal": "arquive/158h.png",
+      "imageVertical": "arquive/158v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Viterbo de Campos 193",
+      "collab": "APco",
+      "local": "Gaia, PT",
+      "category": "Residencial",
+      "year": "11007",
+      "status": "Design Development",
+      "imageHorizontal": "arquive/159h.png",
+      "imageVertical": "arquive/159v.png",
+      "description": "Renovation Project for Residential Building </br> Lídia Tente"
+    },
+
+    {
+      "type": "regular",
+      "title": "Guiné 25",
+      "collab": "APco + GeA",
+      "local": "Maia, PT",
+      "category": "Office",
+      "year": "10010",
+      "status": "Completed"
+    },
+
+    {
+      "type": "regular",
+      "title": "Avenida Beira-mar 945",
+      "collab": "APco + GeA",
+      "local": "Gaia, PT",
+      "category": "Restaurant/Bar",
+      "year": "10004",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Cooperativa “O Lar Familiar” [Arch. Mário Bonito – Bairro dos Músicos]",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "10002",
+      "status": "Completed",
+      "imageHorizontal": "arquive/163h.png",
+      "imageVertical": "arquive/163v.png",
+      "description": "Renovation and Expansion Project of a Single-Family Residential Building </br> Filipe Martino, Diana Ferraz"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Quinta Nova",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Masterplan",
+      "year": "09002",
+      "status": "Design Development",
+      "imageHorizontal": "arquive/165h.png",
+      "imageVertical": "arquive/165v.png",
+      "description": "Master Plan Residential Project </br> Albuquerque Pinho"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Trakai",
+      "collab": "APco + GeA",
+      "local": "Vilnius, LT",
+      "category": "Residencial",
+      "year": "08002",
+      "status": "Study",
+      "imageHorizontal": "arquive/167h.png",
+      "imageVertical": "arquive/167v.png",
+      "description": "Building Renovation Project for Housing </br> Darius, Aureljia"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Vílnius",
+      "collab": "APco + GeA",
+      "local": "Vilnius, LT",
+      "category": "Residencial",
+      "year": "08001",
+      "status": "Design Development",
+      "imageHorizontal": "arquive/168h.png",
+      "imageVertical": "arquive/168v.png",
+      "description": "Renovation and Expansion Project of a Single-Family Residential Building </br> Darius, Aureljia"
+    },
+
+    {
+      "type": "regular",
+      "title": "Espadanedo",
+      "collab": "APco + GeA",
+      "local": "Cinfães, PT",
+      "category": "Residencial",
+      "year": "07003",
+      "status": "Completed",
+      "description": "Renovation and Expansion Project of a Single-Family Residential Building </br> Helena Melo",
+      "imageHorizontal": "arquive/170h.png",
+      "imageVertical": "arquive/170v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "featured",
+      "title": "Vila Ema [Álvaro Faca]",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Residencial",
+      "year": "06003",
+      "status": "Completed",
+      "description": "Renovation Project for a Single-Family Residential Building </br> Lídia Tente",
+      "imageHorizontal": "arquive/172h.png",
+      "imageVertical": "arquive/172v.png",
+      "link": "optional-link-if-featured"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Eng. Guilherme Bonfim Barreiros 268",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "05002",
+      "status": "Completed",
+      "imageHorizontal": "arquive/174h.png",
+      "imageVertical": "arquive/174v.png",
+      "description": "Apartment Renovation Project for Single-Family Housing </br> Paula Albuquerque Pinho"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Campo do Rou 25",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "05001",
+      "status": "Completed",
+      "imageHorizontal": "arquive/175h.png",
+      "imageVertical": "arquive/175v.png",
+      "description": "Apartment Renovation Project for Single-Family Housing </br> Inês Castro"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Bloco da Constituição [Arch. Arménio Losa]",
+      "collab": "APco",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "04004",
+      "status": "Completed",
+      "imageHorizontal": "arquive/177h.png",
+      "imageVertical": "arquive/177v.png",
+      "description": "Apartment Renovation Project for Single-Family Housing </br> Albuquerque Pinho"
+    },
+
+    {
+      "type": "regular",
+      "title": "Escritórios Azkoyen",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Office",
+      "year": "04003",
+      "status": "Completed"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Ribote",
+      "collab": "APco + GeA",
+      "local": "Ericeira, PT",
+      "category": "Mixed-use",
+      "year": "04002",
+      "status": "",
+      "imageHorizontal": "arquive/179h.png",
+      "imageVertical": "arquive/179v.png",
+      "description": "Residential Building Project </br> Gil Faustino"
+    },
+
+    {
+      "type": "regular",
+      "title": "Santo António 34",
+      "collab": "APco",
+      "local": "Albergaria-a-Velha, PT",
+      "category": "Residencial",
+      "year": "03005",
+      "status": "Study"
+    },
+
+    {
+      "type": "expandable",
+      "title": "Cais do Cavaco",
+      "collab": "APco",
+      "local": "Gaia, PT",
+      "category": "Residencial",
+      "year": "03003",
+      "status": "Study",
+      "imageHorizontal": "arquive/182h.png",
+      "imageVertical": "arquive/182v.png",
+      "description": "Residential Building Project </br> Lídia Tente"
+    },
+
+    {
+      "type": "regular",
+      "title": "Museu Nam June Paik",
+      "collab": "APco + GeA",
+      "local": "Kyonggi, ROC",
+      "category": "Culture",
+      "year": "03002",
+      "status": "Competition"
+    },
+
+    {
+      "type": "regular",
+      "title": "Praça de Liége 247",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "03001",
+      "status": "Study"
+    },
+
+    {
+      "type": "expandable",
+      "title": "São João Bosco 130",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Residencial",
+      "year": "02001",
+      "status": "Completed",
+      "imageHorizontal": "arquive/186h.png",
+      "imageVertical": "arquive/186v.png",
+      "description": "Apartment Renovation Project for Single-Family Housing </br> Rosário Queiroz"
+    },
+
+    {
+      "type": "regular",
+      "title": "Thyssenkrupp Main Office ",
+      "collab": "APco + GeA",
+      "local": "Porto, PT",
+      "category": "Office",
+      "year": "01001",
+      "status": "Competition"
     }
   ]
 }

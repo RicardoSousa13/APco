@@ -204,12 +204,6 @@ h4 {
     width: 175px;
   }
 
-  .approach-img1 {
-    display: block;
-    grid-column: 1 / span 5;
-    width: 100%;
-    margin-bottom: 2em;
-  }
   .approach-img2 {
     display: block;
     grid-column: 1 / span 5;
@@ -240,5 +234,13 @@ h4 {
 
   video {
     grid-column: 1 / -1;
+  }
+
+  #approach video {
+    grid-column: 1 / -1;
+  }
+
+  #conclusion p {
+    grid-column: 1 / span 5;
   }
 }

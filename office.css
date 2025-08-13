@@ -118,7 +118,7 @@ video {
   margin-bottom: 2em;
 }
 
-.approach-img1 {
+#approach video {
   display: block;
   grid-column: 5 / span 6;
   width: 100%;
@@ -126,7 +126,7 @@ video {
 }
 .approach-img2 {
   display: block;
-  grid-column: 3 / span 8;
+  grid-column: 4 / span 6;
   width: 100%;
   margin-bottom: 2em;
 }
@@ -183,6 +183,12 @@ h4 {
   flex-direction: column;
   justify-content: space-between; /* pushes top and bottom content apart */
   height: 100%;
+}
+
+#conclusion p {
+  color: #0000ff;
+  grid-column: 3 / span 6;
+  margin: 13em 0 25em 0;
 }
 
 @media (max-width: 600px) {

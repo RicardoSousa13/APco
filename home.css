@@ -143,7 +143,7 @@ body.blue-mode .image-grid img {
 /* --------------------------------------- */
 
 #coming {
-  height: 50em;
+  height: 100vh;
   color: blue;
 }
 #coming p {

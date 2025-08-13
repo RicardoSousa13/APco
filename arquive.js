@@ -145,24 +145,31 @@ function fillSelect(id, items) {
 }
 
 // -------------------------------
-// 👇 DROPDOWN FILTER HANDLING (no year)
+// 👇 SINGLE FILTER AT A TIME HANDLING
 // -------------------------------
-function filterAndRender() {
-  const selectedCollab = document.getElementById("filter-collaboration").value;
-  const selectedLocal = document.getElementById("filter-local").value;
-  const selectedCategory = document.getElementById("filter-category").value;
+function filterAndRenderSingle(filterId) {
+  // Reset all other dropdowns to "all"
+  ["filter-collaboration", "filter-local", "filter-category"].forEach((id) => {
+    if (id !== filterId) {
+      document.getElementById(id).value = "all";
+    }
+  });
 
-  const filtered = allProjects.filter((project) => {
-    if (project.type === "featured") return false;
+  const selectedValue = document.getElementById(filterId).value;
 
-    const matchCollab =
-      selectedCollab === "all" || project.collab === selectedCollab;
-    const matchLocal =
-      selectedLocal === "all" || project.local === selectedLocal;
-    const matchCategory =
-      selectedCategory === "all" || project.category === selectedCategory;
+  let filtered = allProjects.filter((project) => {
+    if (project.type === "featured") return false; // skip featured for now
+    if (selectedValue === "all") return true;
 
-    return matchCollab && matchLocal && matchCategory;
+    if (filterId === "filter-collaboration") {
+      return project.collab === selectedValue;
+    }
+    if (filterId === "filter-local") {
+      return project.local === selectedValue;
+    }
+    if (filterId === "filter-category") {
+      return project.category === selectedValue;
+    }
   });
 
   renderProjects(filtered, false);
@@ -170,5 +177,7 @@ function filterAndRender() {
 
 // Attach change event listeners to dropdowns
 ["filter-collaboration", "filter-local", "filter-category"].forEach((id) => {
-  document.getElementById(id).addEventListener("change", filterAndRender);
+  document.getElementById(id).addEventListener("change", () => {
+    filterAndRenderSingle(id);
+  });
 });

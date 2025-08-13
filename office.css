@@ -142,7 +142,7 @@ video {
 .about-p {
   grid-column: 3 / span 8;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.37;
   font-family: San, sans-serif;
 }
 
@@ -222,7 +222,6 @@ h4 {
   .about-p {
     grid-column: 1 / span 5;
     font-size: 20px;
-    line-height: 1.2;
     font-family: San, sans-serif;
   }
 

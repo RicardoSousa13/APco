@@ -167,7 +167,6 @@ em {
   color: black;
 }
 
-#filter-collaboration,
 #filter-local,
 #filter-category {
   grid-column: span 2;
@@ -225,7 +224,8 @@ summary::-webkit-details-marker {
 }
 
 .collab {
-  grid-column: span 2;
+  grid-column: span 1;
+  text-transform: none;
 }
 
 .year {
@@ -233,7 +233,7 @@ summary::-webkit-details-marker {
 }
 
 .title {
-  grid-column: span 3;
+  grid-column: span 4;
 }
 
 .local {

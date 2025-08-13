@@ -49,12 +49,13 @@ function renderProjects(projects, showFeaturedOnly = false) {
     summary.className = "sections archive-grid";
 
     summary.innerHTML = `
-      <div class="title">${project.title}</div>
-      <div class="collab">${project.collab}</div>
-      <div class="local">${project.local}, PT</div>
-      <div class="category">${project.category}</div>
-      <div class="year">${project.year}</div>
-    `;
+  <div class="collab">${project.collab || ""}</div>
+  <div class="year">${project.year || ""}</div>
+  <div class="title">${project.title || ""}</div>
+  <div class="local">${project.local || ""}</div>
+  <div class="category">${project.category || ""}</div>
+  <div class="status">${project.status || ""}</div>
+`;
 
     details.appendChild(summary);
 

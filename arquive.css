@@ -128,9 +128,9 @@ body.dark-mode .filter-btn {
 
 .filters select,
 .filters button {
-  -webkit-appearance: none; /* Removes Safari's native styling */
-  -moz-appearance: none; /* For Firefox */
-  appearance: none; /* Standard */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background: transparent;
   border: none;
   border-bottom: 0.5px solid black;
@@ -143,12 +143,32 @@ body.dark-mode .filter-btn {
   text-align: left;
   color: black;
 }
-#filter-collaboration {
-  grid-column: 5 / span 2;
+
+em {
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 0.3rem 0;
+  font-family: inherit;
+  font-size: 0.8rem;
+  text-align: left;
+  color: black;
 }
-#filter-category,
-#filter-local {
+
+#filter-collaboration,
+#filter-local,
+#filter-category {
   grid-column: span 2;
+}
+
+/* TEMP — hide All/Featured buttons */
+.filter-buttons {
+  display: none;
+}
+
+/* TEMP — hide project counter */
+#project-counter {
+  display: none;
 }
 
 .archive-list {
@@ -164,6 +184,9 @@ body.dark-mode .filter-btn {
   color: black;
   transition: color 0.3s ease;
   padding: 13px 0;
+
+  /* TEMP — lock projects (not clickable) */
+  pointer-events: none;
 }
 
 .archive-list details:hover summary {
@@ -171,7 +194,6 @@ body.dark-mode .filter-btn {
 }
 
 summary {
-  cursor: pointer;
   list-style: none;
   display: block;
   text-transform: uppercase;
@@ -182,12 +204,35 @@ summary::-webkit-details-marker {
   display: none;
 }
 
+/* 🆕 Updated column order */
 .archive-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   column-gap: 13px;
 }
-.archive-grid > .title {
+
+.collab {
+  grid-column: span 2;
+}
+
+.year {
+  grid-column: span 1;
+}
+
+.title {
+  grid-column: span 3;
+  font-weight: bold;
+}
+
+.local {
+  grid-column: span 2;
+}
+
+.category {
+  grid-column: span 2;
+}
+
+.status {
   grid-column: span 2;
 }
 
@@ -200,29 +245,35 @@ summary::-webkit-details-marker {
   font-size: 0.8rem;
   line-height: 1.5;
 }
+
 .project-content p {
   grid-column: 4 / span 2;
 }
+
 .project-content img:first-child {
   grid-column: span 2;
 }
+
 .project-content img {
   width: 100%;
   height: auto;
-  object-fit: contain; /* or unset */
+  object-fit: contain;
   display: block;
 }
+
 .project-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
+
 .project-info a {
   text-decoration: none;
   text-transform: uppercase;
 }
 
+/* Featured project style */
 .featured-project .project-content {
   margin-top: 0.5rem;
 }
@@ -251,7 +302,8 @@ summary::-webkit-details-marker {
 
   .collab,
   .local,
-  .category {
+  .category,
+  .status {
     display: none;
   }
 

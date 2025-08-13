@@ -60,64 +60,59 @@
       <button id="mode-toggle-dark" class="reveal-text">#000000</button>
     </div>
 
-    <!-- ✦ ARCHIVE FILTERS -->
     <section class="project-list">
-      <div class="filters grid-container">
+      <!-- BUTTON FILTERS (TEMP HIDDEN) -->
+      <div class="filters grid-container filter-buttons">
         <button class="filter-btn" data-filter="all">All</button>
         <button class="filter-btn" data-filter="featured">Featured</button>
+      </div>
 
+      <!-- DROPDOWN FILTERS -->
+      <div class="filters grid-container">
         <select id="filter-collaboration">
-          <option value="all">collaboration</option>
+          <option value="all">Collaboration</option>
         </select>
-
+        <em> Year </em>
+        <em class="title"> Project </em>
         <select id="filter-local">
           <option value="all">Local</option>
         </select>
-
         <select id="filter-category">
-          <option value="all">category</option>
+          <option value="all">Category</option>
         </select>
-
-        <select id="filter-year">
-          <option value="all">Year</option>
-        </select>
-
-        <div id="project-counter"></div>
+        <em>Status</em>
       </div>
     </section>
 
-    <!-- ✦ ARCHIVE LIST -->
+    <!-- ARCHIVE LIST -->
     <div class="archive-list">
       <details
         data-type="expandable"
-        data-year="2025"
-        data-local="Albergaria-a-Velha"
-        data-category="Historic Building"
+        data-year="2023"
+        data-local="Porto"
+        data-category="Housing"
         data-featured="false"
       >
         <summary class="sections archive-grid">
-          <div class="title">Casa do Outeiro</div>
-          <div class="collab">APco</div>
-          <div class="local">Albergaria-a-Velha, PT</div>
-          <div class="category">Historic Building</div>
-          <div class="year">25001</div>
+          <div class="collab">SU</div>
+          <div class="year">2023</div>
+          <div class="title">Project Alpha</div>
+          <div class="local">Porto</div>
+          <div class="category">Housing</div>
+          <div class="status">Built</div>
         </summary>
         <div class="project-content">
           <img src="arquive/01h.png" alt="Horizontal image" />
           <img src="arquive/01v.png" alt="Vertical image" />
-          <div class="project-info">
-            <p>
-              Short description about Project Alpha. <br />
-              Architects: SU, Area: 1045m²
-            </p>
-            <a>the proejct link</a>
-          </div>
+          <p>
+            Short description about Project Alpha. <br />
+            Architects: SU, Area: 1045m²
+          </p>
         </div>
       </details>
-
-      <!-- More <details> will go here, manually or via JS -->
     </div>
 
+    <!-- FOOTER -->
     <div id="footer" class="arquive-footer grid-container">
       <div class="contact">
         <p>E<br />T</p>

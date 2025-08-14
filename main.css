@@ -162,6 +162,11 @@ p {
 /* ---------- END SETUP ------------ */
 /* ---------------------------------- */
 
+::selection {
+  background-color: blue;
+  color: white;
+}
+
 html {
   scroll-behavior: smooth;
 }

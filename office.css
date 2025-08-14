@@ -212,6 +212,15 @@ h4 {
     grid-column: span 3;
     margin-bottom: 1em;
   }
+  #approach {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Target the video block (second in HTML) */
+  #approach .approach-block:nth-child(2) {
+    order: -1; /* Moves it to the top */
+  }
 
   #bio img {
     display: block;
@@ -227,6 +236,11 @@ h4 {
     top: 1.1em;
     position: static;
     z-index: 10;
+  }
+
+  .sticky h4 {
+    grid-column: 1 / span 2;
+    margin-bottom: 2em;
   }
 
   video {

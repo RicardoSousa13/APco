@@ -291,6 +291,18 @@ summary::-webkit-details-marker {
   margin-top: 0.5rem;
 }
 
+/* ============ TABLET ============ */
+@media (max-width: 900px) {
+  .status {
+    display: none;
+  }
+
+  .collab,
+  #filter-collaboration {
+    grid-column: span 2;
+  }
+}
+
 /* ============ MOBILE ============ */
 @media (max-width: 720px) {
   .nav-container {

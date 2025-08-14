@@ -117,12 +117,16 @@ video {
   height: auto;
   margin-bottom: 2em;
 }
+#office div:last-child {
+  align-items: baseline;
+}
 
 #approach video {
   display: block;
   grid-column: 5 / span 6;
   width: 100%;
   margin-bottom: 2em;
+  margin-top: -1em;
 }
 .approach-img2 {
   display: block;
@@ -185,12 +189,6 @@ h4 {
   height: 100%;
 }
 
-#conclusion p {
-  color: #0000ff;
-  grid-column: 3 / span 6;
-  margin: 13em 0 25em 0;
-}
-
 @media (max-width: 600px) {
   .custom-cursor {
     display: none;
@@ -237,9 +235,5 @@ h4 {
 
   #approach video {
     grid-column: 1 / -1;
-  }
-
-  #conclusion p {
-    grid-column: 1 / span 5;
   }
 }

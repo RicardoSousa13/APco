@@ -136,6 +136,7 @@ body.dark-mode .filter-btn {
 .filters {
   margin-bottom: 1.5rem;
   font-size: 0.8rem;
+  align-items: baseline;
 }
 
 .filters select,
@@ -216,7 +217,7 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-/* 🆕 Updated column order */
+/* Updated column order */
 .archive-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

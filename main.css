@@ -202,6 +202,12 @@ html {
   width: 110px; /* optional: adjust size as needed */
 }
 
+#conclusion p {
+  color: #0000ff;
+  grid-column: 3 / span 6;
+  margin: 13em 0 25em 0;
+}
+
 @media (max-width: 600px) {
   .grid-container {
     display: grid;
@@ -226,5 +232,8 @@ html {
   }
   .arquive-footer {
     bottom: 0px;
+  }
+  #conclusion p {
+    grid-column: 1 / span 5;
   }
 }

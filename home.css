@@ -104,14 +104,6 @@ html {
   z-index: 0;
 }
 
-.image-grid img {
-  width: 100%;
-  height: auto;
-  object-fit: contain; /* or unset */
-  display: block;
-  filter: opacity(0.6);
-}
-
 /* Organic sizing */
 .image-grid img.big {
   grid-column: span 2;
@@ -133,10 +125,23 @@ html {
   grid-row: span 3;
 }
 
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* or unset */
+  display: block;
+  /* same function list on both states so the browser can interpolate smoothly */
+  filter: opacity(0.6) brightness(1) sepia(0) hue-rotate(0deg) saturate(1)
+    contrast(1);
+  mix-blend-mode: darken; /* keep this constant to avoid snaps */
+  transition: filter 0.6s ease; /* smooth both ways */
+  will-change: filter; /* hint for smoother animation */
+}
+
 body.blue-mode .image-grid img {
-  mix-blend-mode: darken;
-  filter: brightness(0.95) sepia(0.3) hue-rotate(190deg) saturate(5);
-  transition: filter 0.4s ease-in-out;
+  filter: opacity(1) brightness(0.7) sepia(0.2) hue-rotate(194deg) saturate(11)
+    contrast(1.8);
+  mix-blend-mode: darken; /* keep this constant to avoid snaps */
 }
 
 /* ----------- END IMAGE GRID -----------  */
